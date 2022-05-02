@@ -4,6 +4,7 @@ import * as utils from '@/helpers/utils'
 import DataTable from "@/components/DataTable";
 import { Box, Paper } from '@mui/material';
 
+
 export default function CryptosExchanges(data) {
     const [dataTodasCryptos, setDataTodasCryptos] = useState([]);
     const { themeColor } = useContext(ThemeContext); //Coletando estado de preferência da cor padrão do tema.
