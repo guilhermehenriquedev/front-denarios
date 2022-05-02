@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+.navBrand {
+    .textBrand {
+        font-family: "Ubuntu", sans-serif;
+        font-style: italic;
+    }
+}
+.boxNav {
+    a {
+        text-decoration: none;
+    }
+}
+
+.sidebarCryptos {
+    padding-top: 70px!important;
+}
+
+.cryptos {
+    margin-top:15px;
+    height: 55px;
+}
+
+.VendaCompra {
+    .ValorCompra {
+        color: green;
+    }
+    .ValorVenda {
+        color: red;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navBrand {
+        .textBrand {
+            font-size: 26px;
+        }
+    }
+    .sidebarCryptos {
+        padding-top: 50px!important;
+    }
+    .cryptos {
+        height: 73px;
+    }
+}
